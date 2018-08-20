@@ -1,0 +1,83 @@
+﻿---
+ID: "51091da0-874b-4710-98a8-fda9e5dc3c9e"
+Parent: "75ba2247-c899-429a-9156-26dcbb08e261"
+Template: "8b3ee75b-5175-4e7f-85c1-3e3288e058b5"
+Path: /sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/DialogWindowFullRePublish
+DB: core
+SharedFields:
+- ID: "194b3df0-29bc-4e6b-9e6b-4fb0f086b01f"
+  Hint: Size
+  Value: "{00D1D331-8788-462D-AD22-45406B2B1E11}"
+- ID: "6d0c0ab0-bc40-4bd0-8acb-16612a180f14"
+  Hint: IsVisible
+  Type: Checkbox
+  Value: 1
+- ID: "e2c91975-f61a-4a56-809f-c6216ec36271"
+  Hint: IsKeyboardEnabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DialogWindowFullRePublish
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140456Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: "Komplet re-publicering"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DialogFensterVollErneutVeröffentlichen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: Vollständige erneute Veröffentlichung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160311T083919Z
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: Publish all items
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 完全なリパブリッシュのダイアログ ウィンドウ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: 完全なリパブリッシュ

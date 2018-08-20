@@ -1,0 +1,84 @@
+﻿---
+ID: "03a01095-6a49-467f-9813-7fccc5cf6eb0"
+Parent: "c60cde44-ed37-44c6-bc9e-fd27ca473513"
+Template: "bb0be70c-2cb2-4116-b60b-8d2f49478471"
+Path: /sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/CheckBoxClearCache
+DB: core
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CheckBoxClearCache
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: Slet alle data caches
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140455Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "e17d3534-a424-47e3-8f2c-3dbba705565f"
+      Hint: Tooltip
+      Value: Slet alle data caches ver puplicerings slutning
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ÜberprüfenBoxLöschen Cache
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: "Alle Daten-Caches löschen"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "e17d3534-a424-47e3-8f2c-3dbba705565f"
+      Hint: Tooltip
+      Value: "Alle Daten-Caches auf der öffentlichen Seite löschen"
+- Language: en
+  Fields:
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: Clear all data caches
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160701T114231Z
+    - ID: "e17d3534-a424-47e3-8f2c-3dbba705565f"
+      Hint: Tooltip
+      Value: Clear all data caches on publish end
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: チェック ボックス キャッシュを削除
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: 全てのデータ キャッシュを削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "e17d3534-a424-47e3-8f2c-3dbba705565f"
+      Hint: Tooltip
+      Value: パブリッシュ エンドで全てのデータ キャッシュを削除

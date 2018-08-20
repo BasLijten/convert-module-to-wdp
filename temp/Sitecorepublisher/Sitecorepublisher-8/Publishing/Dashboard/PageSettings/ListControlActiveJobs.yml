@@ -1,0 +1,83 @@
+﻿---
+ID: "1038b679-35d7-453e-af74-a3d5b8bdcb70"
+Parent: "41b656f9-fde3-432c-a471-08130197fa44"
+Template: "cd8b9663-036a-4c69-bb29-156b8c1b185e"
+Path: /sitecore/client/Applications/Publishing/Dashboard/PageSettings/ListControlActiveJobs
+DB: core
+SharedFields:
+- ID: "cc8eb951-9f1f-4dbe-976c-d90199bd1573"
+  Hint: ColumnDefinitionItems
+  Type: TreelistEx
+  Value: |
+    {EB6EC385-8146-4F1B-A82A-3D09BEADCCD8}
+    {BF12A101-9473-4D41-98F6-5808335D63A3}
+    {FC7B0293-9690-4B3D-BA59-9DFE99E54E69}
+    {ECA63943-1946-416C-BB01-F902C0B7065E}
+    {09B1EA9B-1DE2-4F68-8FCB-81F80D942A0F}
+    {B7BEFB03-7CF2-4BE7-9EE1-F5FBCA502111}
+    {E7E444A6-EA8C-46D6-A703-5213A8C21C9D}
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ListControlActiveJobs
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140455Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: Der er ingen aktive opgaver.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ListeSteuerungAktiveAufträge
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: Es liegen keine aktiven Aufträge vor.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160128T073821Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: There are no active jobs.
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: リスト コントロールのアクティブ ジョブ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: アクティブ ジョブはありません
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

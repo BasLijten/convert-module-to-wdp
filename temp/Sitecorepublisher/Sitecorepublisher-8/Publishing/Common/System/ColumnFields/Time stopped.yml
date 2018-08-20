@@ -1,0 +1,83 @@
+﻿---
+ID: "2569c93d-4be8-40de-87ef-fba9577afc49"
+Parent: "3ce016b1-770e-42e3-858c-e79fc4f33bbe"
+Template: "6ccda8ca-2485-432a-8f02-bf008a0d473b"
+Path: /sitecore/client/Applications/Publishing/Common/System/ColumnFields/Time stopped
+DB: core
+SharedFields:
+- ID: "39b52c7b-644a-44bd-83aa-2da24f555d76"
+  Hint: DataFieldName
+  Value: TimeStopped
+- ID: "c606cfd0-5e7a-4f49-a16c-e3f305a0ac61"
+  Hint: IsSortable
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tiden er stoppet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140455Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Tiden er stoppet
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Zeit angehalten
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Zeit angehalten
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160128T073901Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Stopped
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 停止時間
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: 停止時間
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

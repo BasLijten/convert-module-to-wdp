@@ -1,0 +1,71 @@
+﻿---
+ID: "ebfa32e5-eb34-4989-84fb-ed880eb8f738"
+Parent: "2451d025-ec19-474f-b977-fc476bc07a65"
+Template: "6d11daa6-9e23-4a70-a867-a9078ce03049"
+Path: /sitecore/client/Applications/Publishing/PublishDialogSuccess/PageSettings/ButtonDashboard
+DB: core
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ButtonDashboard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140457Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: Åbn publiceringsdashboard
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ButtonDashboard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140502Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: Publishing Dashboard öffnen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160202T091245Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: Open Publishing Dashboard
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ダッシュボード ボタン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140505Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: パブリッシュ ダッシュボードを起動します
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

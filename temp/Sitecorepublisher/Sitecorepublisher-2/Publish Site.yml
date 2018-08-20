@@ -1,0 +1,44 @@
+﻿---
+ID: "cfbd6af3-fb0d-46a9-b2f0-85c2d78b4e57"
+Parent: "eba3991f-8d26-41b1-97e5-090d55020aa0"
+Template: "f58958d2-555b-4f56-946c-589e8866880c"
+Path: /sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/48x48/Earth.png
+- ID: "6ba1018f-9794-4798-963e-601d413b9ca3"
+  Hint: Message
+  Value: "system:publish"
+- ID: "9efed9bb-2ec8-498a-91b9-655091224e4d"
+  Hint: Icon
+  Value: Apps/48x48/Earth.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 675
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Publishing Service Administrator|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Publishing|pe|-item:read|pd|-item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20060322T112239Z
+    - ID: "326cd362-cb1c-4e81-b5f2-5efa940351f7"
+      Hint: Display name
+      Value: Publish Site
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20060322T112239Z
+    - ID: "e7d3348b-8323-42ba-bc9c-48e1f4e994dc"
+      Hint: Tool tip
+      Value: Publish your website.

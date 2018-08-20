@@ -1,0 +1,83 @@
+﻿---
+ID: "e878f7c0-692c-4715-9a88-4c7767d57e8c"
+Parent: "3ce016b1-770e-42e3-858c-e79fc4f33bbe"
+Template: "6ccda8ca-2485-432a-8f02-bf008a0d473b"
+Path: /sitecore/client/Applications/Publishing/Common/System/ColumnFields/Time started
+DB: core
+SharedFields:
+- ID: "39b52c7b-644a-44bd-83aa-2da24f555d76"
+  Hint: DataFieldName
+  Value: TimeStarted
+- ID: "c606cfd0-5e7a-4f49-a16c-e3f305a0ac61"
+  Hint: IsSortable
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tid startet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140457Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Tid startet
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Zeit begonnen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140502Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Zeit begonnen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160128T073901Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: Started
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 開始時間
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140505Z
+    - ID: "5869a226-dfb2-4676-8754-1cd7d22b23ed"
+      Hint: ColumnTitle
+      Value: 開始時間
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

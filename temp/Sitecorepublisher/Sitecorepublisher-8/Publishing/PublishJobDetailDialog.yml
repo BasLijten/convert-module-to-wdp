@@ -1,0 +1,186 @@
+﻿---
+ID: "9f366c9a-0134-4e67-8fe8-0cc13163f173"
+Parent: "1671db2e-c8fd-4188-b00a-e4f881b70ac2"
+Template: "8152cf09-9dd0-40c0-b806-6e91fdf389bc"
+Path: /sitecore/client/Applications/Publishing/PublishJobDetailDialog
+DB: core
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+        <r
+          id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}"
+          par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingDashboardJobDetails.js"
+          ph="Page.Code"
+          uid="{49C9067E-9406-4820-8577-3A0F82573C6D}" />
+        <r
+          id="{A7B206E7-7393-4125-962C-02EEFA4734CF}"
+          par="ConfigurationItem=%7bE5D7A437-4192-4759-8900-9ACF3FDFB971%7d&amp;Id=DialogWindow"
+          ph="Page.Code"
+          uid="{E2453FCE-22BE-4EC9-9C06-F6A14D19F50A}" />
+        <r
+          id="{E6FBC365-732C-4DCD-8C56-10E8C3B963F5}"
+          par="Id=SearchDataSourceMessages&amp;Fields=Text%7cType%7cIsClosable&amp;Database=core&amp;Language=%24context_language&amp;SearchConfigItemId=%7b5A0B749E-A43E-4DE6-9923-5C81964A8A07%7d"
+          ph="Page.Body"
+          uid="{C67869EB-6B26-4F1C-A856-13D9A2EA8B2E}" />
+        <r
+          id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}"
+          par="Id=MessageBar"
+          ph="DialogWindow.Content"
+          uid="{12F01C82-FED6-4F31-8F3D-158B91F0F148}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderMain&amp;UsePadding=0"
+          ph="DialogWindow.Content"
+          uid="{817FFDEA-B6AD-4514-A968-1A35D9951E4E}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderJobDetails&amp;PaddingType=Bottom&amp;UsePadding=1"
+          ph="BorderMain.Content"
+          uid="{BB577A0C-D504-4E69-A2FB-D611C7C07817}" />
+        <r
+          id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}"
+          par="Id=ExpanderJobDetails&amp;HeaderText=Publishing+Targets&amp;IsOpen=1"
+          ph="BorderJobDetails.Content"
+          uid="{63C00748-7F54-4C32-A65A-90EDF6AA315D}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlJobDetails&amp;ViewMode=TileList&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingDashboardJobDetails.html&amp;IsSelectionDisabled=1&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingTiles.css"
+          ph="ExpanderJobDetails.Body"
+          uid="{6BBB3873-3733-4800-9825-4EF0260FE03F}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderTargetStatus&amp;PaddingType=Bottom&amp;UsePadding=1"
+          ph="BorderMain.Content"
+          uid="{27188F67-0F7A-42AA-8958-59BB467F02D6}" />
+        <r
+          id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}"
+          par="Id=ExpanderJobTargetStatus&amp;HeaderText=Publishing+Targets&amp;IsOpen=1"
+          ph="BorderTargetStatus.Content"
+          uid="{B7D62FF4-1DA3-4D5E-8D2F-2BFE17FBCE4B}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlJobTargetStatus&amp;IsSelectionDisabled=1"
+          ph="ExpanderJobTargetStatus.Body"
+          uid="{24DC3F09-4FCD-442A-A45D-DDC0A5622906}" />
+        <r
+          id="{EFEC9CA6-C2AA-42C1-8990-CAC6E093C2EA}"
+          ph="DialogHeader"
+          uid="{33E80218-16A3-4C8D-A552-9EF1E18745F5}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderSuccess&amp;IsVisible=0"
+          ph="DialogWindow.Content"
+          uid="{FA69A35A-A6F7-4638-82B1-BC0F54925F5C}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderImage&amp;ContentHorizontalAlignment=Center&amp;UsePadding=1"
+          ph="BorderSuccess.Content"
+          uid="{7F5A2E5E-68B7-488F-9936-FDFECE37C9FE}" />
+        <r
+          id="{9C2B35A3-791E-4363-9073-37D237E386B0}"
+          par="Id=ImageSuccess&amp;StaticData=%7bD7C953D6-E812-473F-A712-1A2E34643AE0%7d"
+          ph="BorderImage.Content"
+          uid="{8337DCCA-77DB-43DB-9B26-EDEDFAFE9651}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderText&amp;ContentHorizontalAlignment=Center"
+          ph="BorderSuccess.Content"
+          uid="{0275F224-4D7F-4356-AD0D-29C1157058C1}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="ConfigurationItem=%7b3F01F756-B25F-4B26-929B-E4035EDB1CA5%7d&amp;Id=TextSuccess&amp;TextSize=X-Large"
+          ph="BorderText.Content"
+          uid="{C5D853EA-68EE-4532-AFE6-1F7C0B04B741}" />
+        <r
+          id="{B5EA9A34-E232-452E-85DE-49C1CB5FCAF8}"
+          par="Id=GenericDataSourceItemInfo"
+          ph="BorderSuccess.Content"
+          uid="{4941D370-E892-4EA1-A203-FEABF712D8DF}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlNewJobDetails&amp;ViewMode=TileList&amp;ColumnDefinitionItems=%7b99295FE2-61FD-41C2-9942-10983E89A600%7d%7c%7bBF12A101-9473-4D41-98F6-5808335D63A3%7d%7c%7b09B1EA9B-1DE2-4F68-8FCB-81F80D942A0F%7d%7c%7bE0867F8C-36E4-4BC3-893A-1B9BCBFF4201%7d%7c%7bD1AEB128-AB0D-4529-ADF6-B70A6A702DE6%7d%7c%7b57340822-04F3-4789-A90D-D4265ECC2F18%7d%7c%7b70E5B736-B05F-41E6-9393-302ACDC5DB95%7d&amp;TileTemplatePath=%252fsitecore%252fshell%252fclient%252fApplications%252fPublishing%252fPublishingDialogSuccess.html&amp;IsStateDiscarded=1&amp;IsSelectionDisabled=1&amp;TileCssPath=%252fsitecore%252fshell%252fclient%252fApplications%252fPublishing%252fPublishingTiles.css"
+          ph="BorderSuccess.Content"
+          uid="{F0AF0A7A-46A0-499F-9572-548957C15198}" />
+        <r
+          id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}"
+          par="ConfigurationItem=%7b15D5D084-5C8B-4D08-9324-82A14867C841%7d&amp;Id=Button&amp;IsEnabled=1&amp;ButtonType=Primary&amp;Click=javascript%3aapp.DialogWindow.hide()%3b"
+          ph="DialogWindow.Buttons"
+          uid="{2D627224-D49A-4CBC-B8F9-DBAAF58A5ADF}" />
+        <r
+          id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}"
+          par="ConfigurationItem=%7bEA603C52-8DF6-4097-B81B-FEABBF980B63%7d&amp;Id=RePublishButton&amp;IsEnabled=0&amp;IsVisible=0&amp;ButtonType=Inverse"
+          ph="DialogWindow.Buttons"
+          uid="{5C7609D8-04CE-4840-AAB0-0677827B0383}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: PublishJobDetailDialog
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140456Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: PublishJobDetailDialog
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: VeröffentlichenJobDetailDialog
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140501Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: VeröffentlichenJobDetailDialog
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160628T134327Z
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: PublishJobDetailDialog
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: パブリッシュ ジョブ詳細ダイアログ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140504Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: パブリッシュ ジョブ詳細ダイアログ

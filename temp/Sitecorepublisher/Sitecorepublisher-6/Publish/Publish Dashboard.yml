@@ -1,0 +1,47 @@
+﻿---
+ID: "60fae58b-85a8-4656-867a-f53c0311963c"
+Parent: "9b8b99f3-5ae8-4b29-a320-dff191c4e3ab"
+Template: "9f62ebd5-2280-4a35-be51-a210d831d687"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Publish Dashboard
+DB: core
+SharedFields:
+- ID: "4c2dedb4-40fb-4166-8221-c4dd3e914478"
+  Hint: Click
+  Value: "shell:publishdashboard"
+- ID: "8e40ab40-8c83-4ff7-9d33-38ed9458de1e"
+  Hint: Icon
+  Value: Apps/32x32/Earth.png
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Users|pe|!*|pd|!*|ar|sitecore\Sitecore Client Publishing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Advanced Publishing|pe|+item:read|pd|+item:read|ar|sitecore\Publishing Service Administrator|pe|+item:read|pd|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20060418T101200Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: View the Publishing Dashboard.
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Publishing Dashboard
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20060207T110234Z

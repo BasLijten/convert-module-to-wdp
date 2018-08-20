@@ -8,12 +8,12 @@
 -->
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
 	<sitecore>
-        <sc.variable name="publishingDataLocation" value="bla" />
+        <sc.variable name="publishingDataLocation" value="bla" />		
 		<unicorn>		        
 			<configurations>
-				<configuration name="{name}">
-					<targetDataStore physicalRootPath="${location}" />
-                     <predicate type="Unicorn.Predicates.SerializationPresetPredicate, Unicorn" singleInstance="true">
+				<configuration name="$(modulename)">
+					<targetDataStore physicalRootPath="$(publishingDataLocation)\$(modulename)" />
+                     <predicate name="$(modulename)" type="Unicorn.Predicates.SerializationPresetPredicate, Unicorn" singleInstance="true">
                         <!-- <include name="Feature.News.Templates" database="master" path="/sitecore/templates/Feature/News" /> -->                      
                     </predicate>
 				</configuration>
