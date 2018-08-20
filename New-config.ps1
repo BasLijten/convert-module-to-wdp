@@ -1,7 +1,7 @@
 <#Param (
     [parameter(Mandatory=$true)][string]$modulePath = "\sitecoremodule\publishing\"
 )#>
-$moduleLocation = 
+$moduleLocation = "$($PSScriptRoot)\modules\"
 $moduleName = "Sitecorepublisher"
 $modulePath = "sitecoremodule\publishing"
 $itemPath = "$($PSScriptRoot)\test-files\$($modulePath)\items\" 
