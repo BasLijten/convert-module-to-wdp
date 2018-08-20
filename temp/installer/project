@@ -1,0 +1,564 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Publishing Module</PackageName>
+      <Author>Sitecore Corporation</Author>
+      <Version>3.2.1 rev. 180807</Version>
+      <Revision />
+      <License>
+        &lt;p style='font-size:11.5pt;margin-bottom:10.0pt;text-align:center'&gt;&lt;b&gt;Sitecore License Agreement&lt;/b&gt;&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;LICENSEE’S USE OF THE SITECORE SOFTWARE IS SUBJECT TO
+        LICENSEE’S FULL ACCEPTANCE OF THE TERMS, CONDITIONS, DISCLAIMERS AND LICENSE
+        RESTRICTIONS SET FORTH IN THIS AGREEMENT.&lt;/b&gt;&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;text-align:justify'&gt;&lt;b&gt;1. &lt;u&gt;License Grant&lt;/u&gt;&lt;/b&gt;: Upon
+        payment in full of the license fee, Licensor grants Licensee a non-exclusive,
+        perpetual, non-transferable, non-assignable, non-sublicensable license, without
+        time limitations, to use the Sitecore Software in supported configurations as
+        described in the Documentation, in compliance with all applicable laws, in object
+        code form only, exclusively for the Permitted Usage (as that term is defined in Exhibit A),
+        subject to the terms and conditions set forth in this Agreement and Exhibits A
+        and B hereto, which are incorporated herein and made a part of this Agreement.
+        Except as expressly authorized by this Agreement, “Licensee” as used herein
+        does not include any other entity or person, including any present or future
+        subsidiary or affiliate of Licensee, or any entity or person owning any
+        interest in Licensee at present or in the future.
+        “Sitecore Software” means the software that is licensed by Licensor in this
+        Agreement, and any future Upgrades and Patches, as those terms are defined in
+        Section 6 of this Agreement, that the Licensee may receive in accordance with
+        the terms of the Agreement. “Documentation” means the resources made available
+        in the reference section of the Sitecore Developer Network setting forth the
+        then-current functional, operational, and performance capabilities of the
+        Sitecore Software (http://sdn.sitecore.net/documentation).&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.1 License Key&lt;/b&gt;: Licensee will be provided a
+        License Key that gives Licensee access to the Sitecore Software. The Sitecore
+        Software may be used only on the equipment with the features and limitations
+        specified in the License Key. The License Key shall be time-limited until full
+        payment of the license fee has been received by Licensor. The License Key may
+        limit the number of installations of the Sitecore Software and the capacity of
+        the Servers on which the Sitecore Software may be installed. For purposes of
+        this Agreement, one Server is defined as a physical or virtual Server with a
+        processing power for the web process equivalent to at most eight CPU cores. For
+        example, one physical Server may contain eight single-core CPUs, four dual-core
+        CPUs, two quad-core CPUs or one eight-core CPU. A Server with three or four
+        quad-core CPUs would therefore count as two Servers. A virtual server’s processing power will be counted as
+        the number of physical cores allocated or processor core equivalents allocated
+        to the virtual server. For example, one virtual server with two physical
+        processor cores allocated, or with the equivalent of two simulated processor
+        cores allocated, would be counted as the equivalent of two CPU cores and
+        therefore one Server.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.2 Intellectual Property Rights&lt;/b&gt;:
+        The Sitecore Software includes the following patents: U.S. Patent Nos. 7,856,345 and
+        8,255,526. Ownership of the Sitecore Software, and all worldwide rights, title and interest in and
+        to the Intellectual Property associated with the Sitecore Software shall remain
+        solely and exclusively with Licensor or with third parties that license modules
+        included with the Sitecore Software. Licensee shall retain intact all
+        applicable Licensor copyright, patent and/or trademark notices on and in all
+        copies of the Sitecore Software. All rights, title, and interest in Sitecore
+        Software not expressly granted to Licensee in this Agreement are reserved by
+        Licensor. “Intellectual Property” as used in this Agreement means any and all
+        patents, copyrights, trademarks, service marks and trade names (registered and
+        unregistered), trade secrets, know-how, inventions, licenses and all other
+        proprietary rights throughout the world related to the authorship, origin,
+        design, utility, process, manufacture, programming, functionality and operation
+        of Sitecore Software and its Derivative Works.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.3 Confidential Information&lt;/b&gt;:
+        The term “Confidential Information” shall include any information, whether tangible or
+        intangible, including, but not limited to, techniques, discoveries, inventions,
+        ideas, processes, software (in source or object code form), designs,
+        technology, technical specifications, flow charts, procedures, formulas,
+        concepts, any financial data, and all business and marketing plans and
+        information, in each case which is maintained in confidence by the disclosing
+        party (“Disclosing Party”) and disclosed to the other party (“Recipient”)
+        hereunder. The failure by the Disclosing Party to designate any tangible or
+        intangible information as Confidential Information shall not give Recipient the
+        right to treat such information as free from the restrictions imposed by this Agreement
+        if the circumstances would lead a reasonable person to believe that such
+        information is Confidential Information. Confidential Information does not
+        include information which Recipient documents (a) is now, or hereafter becomes,
+        through no act or failure to act on the part of Recipient, generally known or
+        available to the public; (b) was rightfully in Recipient’s possession prior to
+        disclosure by the Disclosing Party; (c) becomes rightfully known to Recipient,
+        without restriction, from a source other than the Disclosing Party and without
+        any breach of duty to the Disclosing Party; (d) is developed
+        independently by Recipient without use of or reference to any of the
+        Confidential Information and without violation of any confidentiality restriction
+        contained herein; or (e) is approved by the Disclosing Party for disclosure
+        without restriction, in a written document executed by a duly authorized
+        officer of the Disclosing Party. Recipient shall hold the Confidential
+        Information received from the Disclosing Party in strict confidence and shall
+        not, directly or indirectly, disclose it, except as expressly permitted herein.
+        Recipient shall promptly notify the Disclosing Party upon learning of any
+        misappropriation or misuse of Confidential Information disclosed hereunder.
+        Notwithstanding the foregoing, Recipient shall be permitted to disclose
+        Confidential Information pursuant to a judicial or governmental order, provided
+        that Recipient provides the Disclosing Party reasonable prior notice, and
+        assistance, to contest such order.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.4 Restrictions on Use&lt;/b&gt;:
+        Except as expressly authorized by applicable
+        law or by Licensor in writing, Licensee shall not copy, in whole or in part,
+        the Sitecore Software or Documentation, or modify, disassemble, decompress,
+        reverse compile, reverse assemble, reverse engineer, or translate any portion
+        of the Sitecore Software. Licensee shall not rent, lease, lend, distribute,
+        sell, assign, license, or otherwise transfer the Sitecore Software, or create
+        Derivative Works of the Sitecore Software. Additionally, Licensee may use
+        embedded third-party components in the Sitecore Software exclusively as described in the OEM
+        section of the Sitecore Developer Network (&lt;a href="http://sdn.sitecore.net/oem"&gt;&lt;span style='font-size:10.0pt;text-decoration:none'&gt;http://sdn.sitecore.net/oem&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.5  Derivative Works&lt;/b&gt;:
+        “Derivative Works” as used herein means any software program (whether in source code or object code),
+        and all copies thereof, developed by or on behalf of Licensee based on or
+        derived from any part of the Sitecore Software, including without limitation
+        any revision, modification, enhancement, translation (including compilation or
+        recapitulation by computer), abridgment, condensation, expansion, or any other
+        form in which the Sitecore Software may be recast, transformed or adapted, and
+        that, if prepared without Licensor's authorization, would constitute a patent,
+        copyright or trade secret infringement of the Sitecore Software, or would
+        otherwise constitute an unauthorized use of Licensor’s Confidential Information.
+        In the event any such Derivative Works are created, Licensor shall own all
+        right, title, and interest in and to such Derivative Works. If, under the
+        operation of local law or otherwise, Licensee or such third party comes to have
+        any rights associated with such Derivative Works, Licensee hereby and shall
+        automatically assign all such rights to Licensor for no additional
+        consideration. For avoidance of doubt, Licensor shall claim no intellectual
+        property interest or legal interest of any kind in any code created by Licensee
+        to facilitate its authorized use of the Sitecore Software so long as the
+        creation of such code does not constitute a Derivative Work or violate any other
+        provision of this Agreement.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.6 Third Party Use and Rights&lt;/b&gt;:
+        Licensee may authorize third parties to
+        assist Licensee in the management, editing, and hosting of web-based content
+        created by use of the Sitecore Software, provided that: (1) such activities are
+        within the scope of the activities Licensee is itself authorized to perform
+        under this Agreement; (2) such third party’s acts are primarily for the direct
+        or indirect benefit of Licensee; and (3) such third parties are not charged a
+        fee by Licensee for such activities. Licensee is prohibited from using the
+        Sitecore Software as an Application Software Provider or in any time-sharing or
+        other commercial arrangement of any kind that makes the Sitecore Software
+        available to third parties primarily for the third party’s own uses. Except as
+        expressly stated in this Agreement, no third party has any rights under this Agreement.
+        Licensee is fully liable to the extent allowed by law for any unauthorized use
+        of the Sitecore Software by third parties caused by any acts or omissions of
+        Licensee.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 21.6pt;text-align:justify'&gt;&lt;b&gt;1.7 License Verification&lt;/b&gt;:
+        The Sitecore Software periodically transmits the following information to a server maintained by
+        Licensor: License Key ID, licensee name, hostname (Licensee’s website URL),
+        host IP, Sitecore Software version, and directory installation path. This
+        information is used by Licensor to send periodic communications to Licensee
+        relevant to use of the Sitecore Software, and to verify, at Licensor’s election,
+        that the Sitecore Software is installed in accordance with the terms of this
+        Agreement.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;'&gt;&lt;b&gt;2. &lt;u&gt;Limited Warranties&lt;/u&gt;&lt;/b&gt;:&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 22.5pt;text-align:justify'&gt;&lt;b&gt;2.1 Licensor’s Limited Warranty&lt;/b&gt;:
+        Licensor expressly warrants that the Sitecore Software provided to Licensee
+        will work for a period of ninety (90) days following the effective date of this
+        Agreement according to the Documentation. In the event any such Sitecore
+        Software does not operate according to the Documentation during this Limited
+        Warranty Period, Licensor shall repair or replace the Sitecore Software and
+        such repair or replacement shall be Licensee’s sole and exclusive remedy.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin:0 0 10.0pt 22.5pt;text-align:justify'&gt;&lt;b&gt;2.2 Virus/Malicious Code Warranty&lt;/b&gt;:
+        Licensor and Licensee warrant that they will use commercially reasonable virus and
+        malicious code detection software programs to test any electronic files,
+        including electronic communications, prior to any delivery or upon receiving such
+        communications and that the parties will continue to take such steps with
+        respect to exchanging electronic files and communications pursuant to this
+        Agreement. In the event either party detects any computer virus or malicious
+        code it shall immediately notify the other party and where possible shall promptly
+        provide revised replacement files in the event any such computer virus or
+        malicious code is detected.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;text-align:justify'&gt;&lt;b&gt;3. &lt;u&gt;DISCLAIMER OF WARRANTIES&lt;/u&gt;: EXCEPT AS EXPRESSLY SET FORTH IN
+        SECTION 2 ABOVE, THE SITECORE SOFTWARE AND THE DOCUMENTATION ARE SUPPLIED TO
+        LICENSEE AS IS.” LICENSOR (DEFINED IN THIS SECTION AS LICENSOR’S PARENT,
+        AFFILIATES, SUBSIDIARIES, DISTRIBUTORS AND THEIR RESPECTIVE OFFICERS, DIRECTORS
+        AND EMPLOYEES) MAKES NO WARRANTY, EXPRESS OR IMPLIED, AS TO THE SITECORE
+        SOFTWARE, THE DOCUMENTATION, THE OPERATION OF THE SITECORE SOFTWARE, OR ANY
+        OTHER GOODS OR SERVICES RENDERED BY LICENSOR TO LICENSEE, INCLUDING BUT NOT
+        LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, PERFORMANCE, ACCURACY,
+        NON-INFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING
+        FROM COURSE OF DEALING OR USAGE OF TRADE, EXCEPT TO THE EXTENT ANY WARRANTIES
+        IMPLIED BY LAW CANNOT BE WAIVED. LICENSOR EXPRESSLY DISCLAIMS ANY AND ALL
+        EXPRESS, IMPLIED OR STATUTORY WARRANTIES THAT THE SITECORE SOFTWARE WILL RUN
+        PROPERLY ON ANY HARDWARE, THAT THE SITECORE SOFTWARE WILL MEET LICENSEE’S
+        REQUIREMENTS OR OPERATE IN THE COMBINATIONS WHICH MAY BE SELECTED FOR USE BY
+        LICENSEE, OR THAT THE OPERATION OF THE SITECORE SOFTWARE WILL BE UNINTERRUPTED
+        OR ERROR FREE, OR THAT ALL ERRORS WILL BE CORRECTED. LICENSOR MAKES NO EXPRESS
+        OR IMPLIED WARRANTY OF ANY KIND REGARDING ANY SEPARATELY LICENSED SOFTWARE THAT
+        MAY BE USED WITH THE SITECORE SOFTWARE.&lt;/b&gt;&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;4. &lt;u&gt;LIMITATION OF LIABILITY&lt;/u&gt;: LICENSOR (DEFINED IN THIS
+        SECTION AS LICENSOR’S PARENT, AFFILIATES, SUBSIDIARIES, DISTRIBUTORS AND THEIR
+        RESPECTIVE OFFICERS, DIRECTORS AND EMPLOYEES) SHALL NOT BE LIABLE TO LICENSEE
+        OR ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+        PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT UNDER
+        ANY LEGAL THEORY, INCLUDING BUT NOT LIMITED TO, LOST PROFITS, LOST DATA OR
+        BUSINESS INTERRUPTION, THE COST OF RECOVERING ANY DATA, INFRINGEMENT, OR THE
+        COST OF SUBSTITUTE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF, KNOWS OF, OR
+        SHOULD HAVE KNOWN, OF THE POSSIBILITY OF SUCH DAMAGES. LICENSOR’S AGGREGATE
+        LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT OF FEES (NOT
+        INCLUDING MAINTENANCE PROGRAM CHARGES) PAID BY LICENSEE FOR USE OF THE SITECORE
+        SOFTWARE UNDER THIS AGREEMENT. LICENSOR WILL NOT BE LIABLE FOR DELAYS OR
+        FAILURES IN PERFORMANCE OF THE SUPPORT OR ANY OTHER SERVICES CAUSED BY FORCES
+        BEYOND ITS CONTROL OR ANY FORCE MAJEURE EVENT SUCH AS ACT OF TERRORISM, LOSS OF
+        POWER, ACT OF GOD, OR SIMILAR OCCURRENCE. THE LIMITATION PROVISIONS OF THIS
+        SECTION SHALL BE APPLICABLE TO ANY CLAIM FILED BY LICENSEE ARISING OUT OF OR
+        RELATING TO ANY SEPARATELY LICENSED SOFTWARE THAT MAY BE USED WITH THE SITECORE
+        SOFTWARE.&lt;/b&gt;&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;text-align:justify'&gt;&lt;b&gt;5. &lt;u&gt;Sitecore Maintenance Program&lt;/u&gt;&lt;/b&gt;:
+        Licensee will automatically be enrolled in the Sitecore Maintenance Program.
+        For each Maintenance Program Period (as that term is defined in Exhibit A)
+        Licensee will be charged a non-refundable Maintenance Program Charge (as that
+        term is defined in Exhibit A). The Sitecore Maintenance Program includes
+        Upgrades and support. Upgrades are free of charge for as long as Licensee
+        is enrolled in the Maintenance Program. Three years after the date of the
+        initial purchase and each three-year anniversary thereafter, Licensor may adjust
+        the Maintenance Program Charge then in effect for all software purchased under
+        this Agreement to 20% of the Licensor’s then-current retail prices. Licensee
+        may cancel the Maintenance Program by providing Licensor with 60 days’ notice
+        prior to the end of any Maintenance Program Period. Licensor may cancel
+        the Maintenance Program upon Licensee’s failure to pay timely any applicable
+        Maintenance Program Charge. A cancelled Maintenance Program may not be renewed
+        except upon payment of double the amount of fees that would have been paid
+        during the lapsed period.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;6. &lt;u&gt;Upgrades and Patches of Sitecore Software&lt;/u&gt;&lt;/b&gt;:
+        “Patch” as used in this Agreement means a specific, targeted fix to a discrete problem in the use or
+        functionality of the Sitecore Software that Licensor in its sole discretion
+        defines to constitute a “Patch” and may from time to time provide to Licensee.
+        “Upgrade” as used in this Agreement means a new version of some or all of the
+        Sitecore Software, or an improvement in the use or functionality of the Sitecore
+        Software more substantial than a Patch, that Licensor in its sole discretion
+        defines to constitute an “Upgrade” and may from time to time provide to
+        Licensees enrolled in the Sitecore Maintenance program. Licensee expressly
+        acknowledges that Upgrades and Patches may change functionality of the Sitecore
+        Software and integration with other systems, and may not work with some or all
+        of the Sitecore Software modules, or be backward compatible with earlier
+        versions of Sitecore Software. Installation of Patches and Upgrades is the
+        choice and responsibility of Licensee. To the extent that operation of the Sitecore
+        Software is affected by problems in standard software, including, but not
+        limited to, Microsoft Internet Explorer, Windows and the Microsoft.Net
+        Framework, then Licensee shall install updates to such standard software per
+        Licensor’s specifications in order to resolve these issues. Licensor has no
+        control over such standard software, and cannot assure that problems with such
+        standard software will be corrected, or that such corrections will be made in a
+        timely manner.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;7. &lt;u&gt;Waivers&lt;/u&gt;&lt;/b&gt;:
+        All waivers must be in writing and signed by authorized representatives of the parties. Any waiver or failure to enforce
+        any provision of this Agreement on one occasion shall not be deemed a waiver of
+        any other provision or of such provision on any other occasion.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;8. &lt;u&gt;Severability&lt;/u&gt;&lt;/b&gt;:
+        If any provision of this Agreement is adjudicated to be unenforceable, such provision shall be deemed changed and
+        interpreted to accomplish the objectives of such provision to the greatest
+        extent possible under applicable law and the remaining provisions shall
+        continue in full force and effect.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;9. &lt;u&gt;Assignment&lt;/u&gt;&lt;/b&gt;:
+        Licensee may not assign this Agreement,
+        by operation of law or otherwise, which includes any change of control in the
+        ownership structure of Licensee. Licensor may assign this Agreement to a
+        successor (whether by merger, a sale of all or a significant portion of its
+        assets, a sale of a controlling interest of its capital stock, or otherwise)
+        that agrees to assume Licensor’s obligations under this Agreement. Any
+        attempted assignment or transfer in violation of this Section shall be void and
+        of no force or effect. Subject to the provisions of this Section 9, this
+        Agreement shall be binding upon the successors and assigns of the parties.&lt;/p&gt;
+
+        &lt;p style='font-size:10.0pt;margin-bottom:10.0pt;text-align:justify'&gt;&lt;b&gt;10. &lt;u&gt;Entire Agreement&lt;/u&gt;&lt;/b&gt;:
+        This Agreement, and any attachment that is expressly incorporated in this Agreement, constitutes the entire agreement
+        between the parties regarding the subject matter hereof and supersedes all
+        prior or contemporaneous agreements, understandings and communications, whether
+        written or oral. This Agreement may be amended only by a written document
+        signed by both parties. In the event of a conflict between any provision of
+        this Agreement with any other attachment or document, this Agreement shall
+        control. Any term or condition not specifically authorized
+        by this Agreement included in any Licensee invoice, purchase order or other
+        document rendered pursuant to this Agreement is of no force or effect unless
+        the specific term or condition has been previously agreed to by the parties in
+        writing in a separate agreement. No action by Licensor (including, without
+        limitation, receipt of payment of any such invoice, or acceptance of any
+        purchase order, in whole or in part) shall be construed as making any such term
+        or condition binding on Licensor.&lt;/p&gt;
+
+        &lt;p style='font-size:8.0pt;margin-bottom:10.0pt;text-align:justify'&gt;Sitecore License Agreement. July 1, 2013&lt;/p&gt;
+      </License>
+      <Comment />
+      <Attributes />
+      <Readme>==========================================================
+***Important! Copy and save this information***
+==========================================================
+    BEFORE YOU CLICK NEXT:
+    - Ensure you have installed and configured the Sitecore Publishing Service (this module only enables integration with the service)
+        Documentation detailing how to install the service is available seperately.
+
+        [Warning] This module will not work without a properly configured service instance.  No items will be able to be published.
+    
+    AFTER YOU CLOSE THE WIZARD:
+    After the package is installed, follow these steps to complete the Sitecore Publishing Module installation:
+    - Configure the service endpoints:
+        Add a configuration file which overrides the 'PublishingServiceUrlRoot' setting to point to your service module        
+        Make sure the address contains a trailing slash
+        e.g.
+            &lt;?xml version="1.0" encoding="utf-8"?&gt;
+            &lt;configuration xmlns:patch="http://www.sitecore.net/xmlconfig/"&gt;
+              &lt;sitecore&gt;
+                &lt;settings&gt;
+                  &lt;setting name="PublishingServiceUrlRoot"&gt;http://sitecore.publishing/&lt;/setting&gt;
+                &lt;/settings&gt;    
+              &lt;/sitecore&gt;
+            &lt;/configuration&gt;
+    - Configure the Content Delivery Servers:
+        Ensure that the following file is in the website 'App_Config/Modules/PublishingService' directory:
+            * Sitecore.Publishing.Service.Delivery.config
+        Ensure that the following files exist in the website 'bin' directory:
+            * Sitecore.Publishing.Service.dll
+            * Sitecore.Publishing.Service.Abstractions.dll
+            * Sitecore.Publishing.Service.Delivery.dll</Readme>
+      <Publisher>Sitecore Corporation</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Applications/Launchpad/PageSettings/Buttons/ContentEditing/Publishing/{1C6F328C-B26B-4A87-91E4-67802EF3DBFE}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/{1671DB2E-C8FD-4188-B00A-E4F881B70AC2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/{8F961562-DC4F-4932-B89F-8736B22CCA66}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/{D788D895-1E19-497A-B99A-5B918D1125C8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/{6A1E35AB-BF4A-4999-92CF-AF67E6327EFA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/FullRePublishAdvanced/{7ECC1D0D-BFDA-4EF0-A9CA-D2062B8CB500}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/FullRePublishAdvanced/Sync with target/{EA326E58-A67E-4AA4-8EFB-52608E60FE9B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/PublishingOptions/{2D411070-166F-4968-B6DA-B125D72D9C29}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/PublishingOptions/Publish related items/{FC7B2755-7D25-4AB6-863B-7B39EFF23AF0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/CheckBoxLists/PublishingOptions/Publish sub items/{DF6E63A1-39A6-4EBC-91E4-1791D5B28233}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/{3CE016B1-770E-42E3-858C-E79FC4F33BBE}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Duration/{7883BBFA-41BC-43E5-A87D-122791004FCC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Id/{265D5C68-F75B-4D5E-8720-EFEBDECEC3BB}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Item versions affected/{2EE691D9-3D7E-4709-80D9-E346EE0906D1}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Languages/{BF12A101-9473-4D41-98F6-5808335D63A3}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Name/{99295FE2-61FD-41C2-9942-10983E89A600}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/No/{D1AEB128-AB0D-4529-ADF6-B70A6A702DE6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Path/{1C1613A8-0EE7-482D-A984-6A4D369ACC1D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Publish related items/{70E5B736-B05F-41E6-9393-302ACDC5DB95}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Publish sub items/{57340822-04F3-4789-A90D-D4265ECC2F18}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Requested by/{FC7B0293-9690-4B3D-BA59-9DFE99E54E69}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Source/{5A875AB4-12A5-4616-AD38-7E84B86FBEED}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Start path/{D917B567-0FD1-4422-914E-A350F3C5A488}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Status Message/{23507218-C054-4DFD-81B9-E73FAA1E6128}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Status/{ECA63943-1946-416C-BB01-F902C0B7065E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Targets/{09B1EA9B-1DE2-4F68-8FCB-81F80D942A0F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Time requested/{B7BEFB03-7CF2-4BE7-9EE1-F5FBCA502111}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Time started/{E878F7C0-692C-4715-9A88-4C7767D57E8C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Time stopped/{2569C93D-4BE8-40DE-87EF-FBA9577AFC49}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Type/{E7E444A6-EA8C-46D6-A703-5213A8C21C9D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ColumnFields/Yes/{E0867F8C-36E4-4BC3-893A-1B9BCBFF4201}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/{75BA2247-C899-429A-9156-26DCBB08E261}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/BorderFullRePublishSecurity/{DD687B72-F15C-4EB0-B240-0CDD27C32121}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonCancel/{6C95E2A6-D85C-4B56-8ADD-D149173CE8AD}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonClose/{15D5D084-5C8B-4D08-9324-82A14867C841}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonPublish/{7AEE7A9C-44D0-440F-9DE7-028D74ADA5E6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonPublishInstance/{81EBE47A-6792-4E52-93AA-F102959AFF30}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonRePublish/{EA603C52-8DF6-4097-B81B-FEABBF980B63}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/DialogWindowFullRePublish/{51091DA0-874B-4710-98A8-FDA9E5DC3C9E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/DialogWindowJobDetails/{E5D7A437-4192-4759-8900-9ACF3FDFB971}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/HeaderLanguages/{985179E6-7A63-4CC0-89DB-9E147A03CEF6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/HeaderTargets/{ABBB8667-3A20-496F-AFD0-F0FFA2AF07BA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/SearchConfigMessages/{5A0B749E-A43E-4DE6-9923-5C81964A8A07}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/TextSuccess/{3F01F756-B25F-4B26-929B-E4035EDB1CA5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/{94B90811-CD81-4AF6-B6A9-72C7C9CF263A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/All items repair/{A1C13387-5D5A-437C-A85A-6AAAE3768E10}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/All items/{F368900B-DAA0-425E-A9FE-26EEB3CF9ED7}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Cancelled/{0D3265FF-E937-4421-9115-10B24E269076}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Completed/{19A3FB58-4B2B-4E48-8EAB-B4C7720574AC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/CompleteWithErrors/{720C12E4-F6E6-4CD2-B359-C5E6641D9879}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Failed/{FD377CA0-1F1A-434F-A7A6-A47F3F4685CD}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/In Progress/{6378E396-C30B-4D6E-9368-C9097AD19C03}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Item publish/{7EDC7D8E-7795-4D09-B4BC-CD854C621074}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Queued/{EBFC4A81-DF33-4CB3-90E2-0F8F396E49D6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Ready/{00C2ED43-6979-46EC-82E3-703F3AD1D662}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Running/{929F72E8-189F-4588-A28C-C13A00ECBE14}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Site publish/{377A9BA7-87BB-476C-A7CE-B7EF6C6567ED}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Labels/Started/{0B89C968-3C26-42E0-94E8-17BCBE4EC027}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/{0712A3D7-DA4A-4682-9BB9-8091962DB4CF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/ForceCheckingLanguages/{21C45904-2199-46B9-9352-A29F019CFE0B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/ForceCheckingTargets/{8D0B42F6-520D-4043-AB65-B396C61A5E3E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/FullRePublishWarning/{BBF2B1F1-94EF-471D-9D62-D4DB7775F53A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/FullSitePublishWarning/{19C4ADF3-5C7C-4BA7-BB83-CEC1633ABCB5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/Maintenance service is down/{2719C22F-C0D5-4E81-9B45-ABB2FB95F493}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/MaintenanceTaskRunningWarning/{7DB5A140-DD12-4B05-8BA2-38A22CDE66C0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/PublishError/{C88310D3-D637-41DA-B049-972BAE6B7455}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Common/System/Messages/Publishing service is down/{854CA310-F4AC-4B10-8A1D-6FB7AFEA4C6A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/{A13EA177-8EC5-48C2-B0E2-C141F8763A9D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/{41B656F9-FDE3-432C-A471-08130197FA44}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ExpanderActiveJobs/{F39D19F9-9E40-4FF8-8362-7B8F45E5CB28}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ExpanderQueuedJobs/{58FAE7F8-57BA-402B-82F5-A12A789FEA2B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ExpanderRecentJobs/{E3DAF63D-B87D-4FEE-A19B-264602E8E832}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/HeaderTitle/{DC328230-ABF2-4A31-BA8A-805141BB7749}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ListControlActiveJobs/{1038B679-35D7-453E-AF74-A3D5B8BDCB70}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ListControlQueuedJobs/{C0D326A3-FCC9-4C7D-9126-28E6E9E91B08}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/ListControlRecentJobs/{EDBB44AA-2F47-46A2-8C21-1C9CF8997F72}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/PageSettings/New Folder/{72938684-80D8-4F09-A14F-FF6FB90338F6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/{AE8B1D5C-8DDD-4698-8E93-94025EAC2F93}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Queued jobs/{B9203C72-40ED-4931-95E2-591A68FFC92C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Queued jobs/PageSettings/{9D642211-8221-4F85-8F7A-AB4D8FCD8754}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Queued jobs/PageSettings/HeaderTitle/{577F8FEE-D0E8-4F58-A791-E502FA516F2F}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Queued jobs/PageSettings/ListControlQueuedJobs/{94C74C56-DE29-4DC5-8EB1-248B5C30AE89}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Recent jobs/{9521A204-92C1-4276-83D5-EB597FF6F21B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Recent jobs/PageSettings/{556AD181-917D-4DB0-B620-D50D5668ECB6}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Recent jobs/PageSettings/HeaderTitle/{B69346F2-039D-4F07-8633-AB2822BDA7B7}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/Dashboard/Publishing/Recent jobs/PageSettings/ListControlRecentJobs/{3D4EB09B-971E-49E5-B596-202C8343C06E}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/{36798F82-AA2E-47DC-879A-FB5B3661470D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/{C60CDE44-ED37-44C6-BC9E-FD27CA473513}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/CheckBoxClearCache/{03A01095-6A49-467F-9813-7FCCC5CF6EB0}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/CheckBoxFullRepublish/{C0216BB6-E24B-4A6D-A362-86E3AB6A4D80}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/ExpanderPublishOptions/{35DD7953-3542-421B-A133-17F3C339A171}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/DialogWindowFullRePublish/PageSettings/HeaderAdvanced/{146BF381-9D20-4D66-A7BB-EF7F5B66F05A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/{A17F28AB-56BA-45B0-8A03-6EC12F18B2B4}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/{BA550036-BDA2-4F45-A712-522850B64120}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/CheckBoxRelatedItems/{CC59F0CF-D960-47BE-9CDA-F76C25416C73}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/CheckBoxSubItems/{88EABA58-C126-4D66-96D2-8C366DA314B5}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/HeaderOptions/{CEF17F48-0F4E-4C13-B109-DD10D2FF6B01}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/HeaderTitleItemPublish/{FD9F3165-80DB-44D0-A5D4-EBD46871D96D}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/HeaderTitleSitePublish/{80AE6432-1CD6-453F-AA2F-6D788667C359}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/TabControlPublish/{7FDE972B-8EF8-40F8-9420-B7140FA945AF}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialog/PageSettings/TabControlPublish/PublishTab/{1FE1550C-A1E2-486B-8CDE-2965D4CF379B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialogSuccess/{808AD810-4B69-49BF-B6F0-76043D2E03E8}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialogSuccess/PageSettings/{2451D025-EC19-474F-B977-FC476BC07A65}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialogSuccess/PageSettings/ButtonDashboard/{EBFA32E5-EB34-4989-84FB-ED880EB8F738}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishDialogSuccess/PageSettings/HeaderTitle/{7F59F161-6F10-45D6-B7FB-3F9CF043F18A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishJobDetailDialog/{9F366C9A-0134-4E67-8FE8-0CC13163F173}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishJobDetailDialog/PageSettings/{E8934080-ADA6-4D5F-9A9C-7184DF08E66B}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishJobDetailDialog/PageSettings/ListControlJobDetails/{B70920FC-BEA5-44A9-AE41-2F9E9159772C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/Publishing/PublishJobDetailDialog/PageSettings/ListControlJobTargetStatus/{FF043597-39D1-4257-A250-F18063C77327}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Menues/Publish/{D3154765-60FE-49DC-B917-35E83AEF348F}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Item/{98719A90-225A-4802-A062-5D3967E4DD47}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Site/{F7178B75-9AA6-48EA-A70B-97D59C54B033}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish Restrictions/{E0EF7E99-3CCE-4E60-BDD7-1190F2B375F7}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish Restrictions/Change/{E7416DB2-42B8-49A1-8230-6F161BC837B2}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/{9B8B99F3-5AE8-4B29-A320-DFF191C4E3AB}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Page Editor/{AE7CA3FB-770F-43A9-8BD9-B0E67090DD61}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Preview/{CF377B94-17EE-4D82-86B4-419A8B41901A}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Publish Dashboard/{60FAE58B-85A8-4656-867A-F53C0311963C}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Publish/{14550BAD-AF45-42C9-ADF4-4BED5FA6CB3E}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Publish/Publishing Viewer/{AD5A9FF2-F7C9-4886-B31E-B82E122485E4}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/Publish/{8D7A7B0D-1735-4DE5-AC94-01484BF2D798}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Strips/Publish/{6553636F-E904-4F2D-B222-090D0A26298C}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Strips/Publish/Lifetime/{1821AEB5-5165-4705-9FF6-6071D6FB22E9}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Strips/Publish/Publish/{44098A25-A601-4E12-9E1F-F4EDF5ABD90C}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site/{CFBD6AF3-FB0D-46A9-B2F0-85C2D78B4E57}/invariant/0</x-item>
+        <x-item>/core/sitecore/media library/Publishing/{B2E972AB-8E74-406F-BEDC-EF39AF69854B}/invariant/0</x-item>
+        <x-item>/core/sitecore/media library/Publishing/Checkmark/{D7C953D6-E812-473F-A712-1A2E34643AE0}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Aliases/Applications/{39896EFC-6F58-426F-88DE-EB40CF8E7335}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Aliases/Applications/Publish/{0DBAC052-B2FE-4BD2-95F4-33DE4C6DA472}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Modules/PublishingService/Sitecore.Publishing.Service.config</x-item>
+        <x-item>/App_Config/Modules/PublishingService/Sitecore.Publishing.Service.ContentAvailability.config.disabled</x-item>
+        <x-item>/App_Config/Modules/PublishingService/Sitecore.Publishing.Service.ContentAvailability.lucene.config.disabled</x-item>
+        <x-item>/App_Config/Modules/PublishingService/Sitecore.Publishing.Service.ContentAvailability.solr.config.disabled</x-item>
+        <x-item>/App_Config/Modules/PublishingService/Sitecore.Publishing.Service.Delivery.config</x-item>
+        <x-item>/bin/Sitecore.Framework.Publishing.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Publishing.Client.Http.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Publishing.Common.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Publishing.Http.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Patterns.dll</x-item>
+        <x-item>/bin/Sitecore.Framework.Patterns.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.Service.Abstractions.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.Service.Client.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.Service.Client.Services.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.Service.Delivery.dll</x-item>
+        <x-item>/bin/Sitecore.Publishing.Service.dll</x-item>
+        <x-item>/bin/System.Reactive.Core.dll</x-item>
+        <x-item>/bin/System.Reactive.Interfaces.dll</x-item>
+        <x-item>/bin/System.Reactive.Linq.dll</x-item>
+        <x-item>/bin/System.Reactive.PlatformServices.dll</x-item>
+        <x-item>/bin/Polly.dll</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/publishing-deps-config.json</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingConstants.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDashboard.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDashboardActiveJob.html</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDashboardJobDetails.html</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDashboardJobDetails.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialog.html</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialog.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialogFullRepublish.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialogPublishTab.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialogSuccess.html</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingDialogSuccess.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingPreferences.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingQueuedJobs.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingRecentJobs.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingShared.js</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingTiles.css</x-item>
+        <x-item>/sitecore/shell/client/Applications/Publishing/PublishingUtils.js</x-item>
+        <x-item>/sitecore/Copyrights/Dapper_apache.txt</x-item>
+        <x-item>/sitecore/Copyrights/Polly_BSD.txt</x-item>
+        <x-item>/sitecore/Copyrights/Rx.net_apache.txt</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <accounts>
+      <Entries>
+        <x-item>roles:sitecore\Publishing Service Administrator</x-item>
+      </Entries>
+      <Converter>
+        <AccountToEntryConverter>
+          <Transforms />
+        </AccountToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name />
+    </accounts>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

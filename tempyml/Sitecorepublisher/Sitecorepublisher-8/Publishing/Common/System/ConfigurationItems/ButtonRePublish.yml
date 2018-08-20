@@ -1,0 +1,76 @@
+﻿---
+ID: "ea603c52-8df6-4097-b81b-feabbf980b63"
+Parent: "75ba2247-c899-429a-9156-26dcbb08e261"
+Template: "6d11daa6-9e23-4a70-a867-a9078ce03049"
+Path: /sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/ButtonRePublish
+DB: core
+SharedFields:
+- ID: "420152fa-8a08-4fe8-8572-3279433ecfec"
+  Hint: Click
+  Value: |
+    javascript:app.trigger("republish");
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ButtonRePublish
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140457Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: Publicer igen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ButtonWiederveröffentlichen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140502Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: Wiederveröffentlichen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160202T091245Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: "Re-Publish"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ボタン リパブリッシュ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140505Z
+    - ID: "44a4344b-4b99-4c5e-9764-a85661a97588"
+      Hint: Text
+      Value: リパブリッシュ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

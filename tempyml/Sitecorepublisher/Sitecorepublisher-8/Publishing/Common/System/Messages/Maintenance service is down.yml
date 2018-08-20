@@ -1,0 +1,75 @@
+﻿---
+ID: "2719c22f-c0d5-4e81-9b45-abb2fb95f493"
+Parent: "0712a3d7-da4a-4682-9bb9-8091962db4cf"
+Template: "87033790-c370-49f0-8b75-99c4a06a9901"
+Path: /sitecore/client/Applications/Publishing/Common/System/Messages/Maintenance service is down
+DB: core
+SharedFields:
+- ID: "f9837d63-6af1-43ac-835d-719cabad6dfc"
+  Hint: Type
+  Value: Error
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vedligeholdelses servicen kører ikke.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: Vedligeholdelses servicen kører ikke. Kontakt venligst din systemadministrator.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140455Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Der Warungsservice läuft nicht
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: Der Wartungsservice läuft nicht. Bitte kontaktieren Sie Ihren Systemadministrator.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: The maintenance service is not running. Please contact your system administrator.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160225T135251Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: メンテナンス サービスが停止しています。
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: メンテナンス サービスが停止しています。システム管理者にご連絡ください。
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

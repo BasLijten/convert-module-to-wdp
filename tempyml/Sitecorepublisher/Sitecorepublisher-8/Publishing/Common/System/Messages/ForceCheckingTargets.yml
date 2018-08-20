@@ -1,0 +1,75 @@
+﻿---
+ID: "8d0b42f6-520d-4043-ab65-b396c61a5e3e"
+Parent: "0712a3d7-da4a-4682-9bb9-8091962db4cf"
+Template: "87033790-c370-49f0-8b75-99c4a06a9901"
+Path: /sitecore/client/Applications/Publishing/Common/System/Messages/ForceCheckingTargets
+DB: core
+SharedFields:
+- ID: "f9837d63-6af1-43ac-835d-719cabad6dfc"
+  Hint: Type
+  Value: Error
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ForceCheckingTargets
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: Mindst et mål skal kontrolleres.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140456Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ZwangsüberprüfungZiele
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: Es muss mindestens ein Ziel überprüft werden.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140501Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: You must select at least one publishing target before you can publish.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160225T135420Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ターゲット選択の指示
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07542733-3941-4eea-9a03-0ece7e75f10b"
+      Hint: Text
+      Value: 最低でも1つのターゲットを選択してください
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140504Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

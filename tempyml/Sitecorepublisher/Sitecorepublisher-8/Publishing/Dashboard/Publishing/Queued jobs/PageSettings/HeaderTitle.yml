@@ -1,0 +1,71 @@
+﻿---
+ID: "577f8fee-d0e8-4f58-a791-e502fa516f2f"
+Parent: "9d642211-8221-4f85-8f7a-ab4d8fcd8754"
+Template: "f68271f5-a737-4074-81bd-0e9d3064828c"
+Path: /sitecore/client/Applications/Publishing/Dashboard/Publishing/Queued jobs/PageSettings/HeaderTitle
+DB: core
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: HeaderTitle
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140456Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Job I kø
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: HeaderTitel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140500Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Jobs in der Warteschlange
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160127T145738Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Queued jobs
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ヘッダー タイトル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140503Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: キューに登録されたジョブ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

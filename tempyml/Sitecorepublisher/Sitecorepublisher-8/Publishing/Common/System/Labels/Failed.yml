@@ -1,0 +1,71 @@
+﻿---
+ID: "fd377ca0-1f1a-434f-a7a6-a47f3f4685cd"
+Parent: "94b90811-cd81-4af6-b6a9-72c7c9cf263a"
+Template: "f68271f5-a737-4074-81bd-0e9d3064828c"
+Path: /sitecore/client/Applications/Publishing/Common/System/Labels/Failed
+DB: core
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Alle elementer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140457Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Alle elementer
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Alle Items
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140502Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Alle Items
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160704T111551Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: Failed
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140505Z
+    - ID: "2d028a16-aa3f-437f-a769-284894942747"
+      Hint: Text
+      Value: 全てのアイテム
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

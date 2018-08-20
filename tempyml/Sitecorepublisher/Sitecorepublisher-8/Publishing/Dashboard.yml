@@ -1,0 +1,242 @@
+﻿---
+ID: "a13ea177-8ec5-48c2-b0e2-c141f8763a9d"
+Parent: "1671db2e-c8fd-4188-b00a-e4f881b70ac2"
+Template: "b11afccd-c286-4384-b694-4465d6c605de"
+Path: /sitecore/client/Applications/Publishing/Dashboard
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: OfficeWhite/24x24/presentation_empty.png
+- ID: "3a67ad0f-9530-4b1b-9b70-9230c36ae8d6"
+  Hint: UseFullWidth
+  Type: Checkbox
+  Value: 1
+- ID: "64da76c1-7bd0-4103-9253-c3e76f26dab0"
+  Hint: IsApplicationRoot
+  Type: Checkbox
+  Value: 1
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingDashboard.js"
+          ph="Page.Code"
+          uid="{37938237-7FC8-45BB-BD57-E811393C4DDF}" />
+        <r
+          id="{B5EA9A34-E232-452E-85DE-49C1CB5FCAF8}"
+          par="QueryParameters=sourceDatabase%3dmaster&amp;Id=GenericDataSource&amp;ServiceUrl=%2fsitecore%2fapi%2fssc%2fpublishing%2fjobs%2f%7b00000000-0000-0000-0000-000000000000%7d%2fAll"
+          ph="Page.Code"
+          uid="{8B276D76-A3D9-4673-96E2-E0A2714A454E}" />
+        <r
+          id="{DE943A70-61A4-4D27-A166-C79A5BC9683A}"
+          par="ConfigurationItem=%7b36798F82-AA2E-47DC-879A-FB5B3661470D%7d&amp;Id=SubAppRendererFullRePublish"
+          ph="Page.Body"
+          uid="{51CD8DA1-DECF-48CB-B907-24461A0C190F}" />
+        <r
+          id="{DE943A70-61A4-4D27-A166-C79A5BC9683A}"
+          par="ConfigurationItem=%7b9F366C9A-0134-4E67-8FE8-0CC13163F173%7d&amp;Id=SubAppRendererJobDetails"
+          ph="Page.Body"
+          uid="{8FF447C3-7C70-4169-A6B5-4D2C432EEC66}" />
+        <r
+          id="{6C3780DC-2D6F-49E6-B63F-07D67C0FDDA7}"
+          ph="Page.Body"
+          uid="{5DF0BF70-A5CA-49B8-A60A-12F05303D659}" />
+        <r
+          id="{78D8260C-4FF9-4627-BF64-0B884ACA4BA1}"
+          ph="GlobalHeader"
+          uid="{532C7DCD-29E7-4C34-9910-FC283D61A026}" />
+        <r
+          id="{C220369A-84A3-482B-A936-F75CDCB23736}"
+          par="ImageUrl=%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fsitecore%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fshell%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fclient%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fSpeak%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fAssets%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fimg%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252fspeak-logo.png&amp;Id=GlobalLogo"
+          ph="GlobalHeader.StartButton"
+          uid="{A340B9F2-9FD0-4767-9B0B-62D7C8B0E5C7}" />
+        <r
+          id="{1E1E272D-AC0C-4908-B86E-056F18C8DC99}"
+          par="Id=NavigationToggle"
+          ph="GlobalHeader.NavigationToggler"
+          uid="{BF65DC48-D28F-4AE3-81E2-90AC621302B5}" />
+        <r
+          id="{0DD00367-0B7D-4955-BB70-397523711B6D}"
+          par="Id=AccountInformation"
+          ph="GlobalHeader.LoginInfo"
+          uid="{BC28A92F-6D16-4419-8FF8-3EA362691B7D}" />
+        <r
+          id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}"
+          ph="ApplicationHeader"
+          uid="{1E240370-226C-40E4-9C54-7FE8630DF74A}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="Id=HeaderTitle"
+          ph="ApplicationHeader.Title"
+          uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+        <r
+          id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}"
+          par="Id=MessageBar&amp;IsVisible=0"
+          ph="ApplicationContent.Main"
+          uid="{10145E40-C821-4C56-9A71-266CCC751CFF}" />
+        <r
+          id="{78E022DA-DD10-47C8-A843-F7A1F18D0A87}"
+          ph="ApplicationContent"
+          uid="{5C96B069-71B7-4B1D-BE44-B673DE81D9DE}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="ConfigurationItem=%7bDD687B72-F15C-4EB0-B240-0CDD27C32121%7d&amp;Id=BorderFullRePublishSecurity&amp;RequiresWrite=1&amp;RequiresRead=1"
+          ph="ApplicationContent.Navigation"
+          uid="{97344F17-EB9C-47A0-922C-20DBE099E513}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderNavigationButton&amp;RequiresWrite=0&amp;RequiresRead=0&amp;UsePadding=1"
+          ph="BorderFullRePublishSecurity.Content"
+          uid="{90E4AA8F-6101-4756-B3B4-54F70383A252}" />
+        <r
+          id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}"
+          par="ConfigurationItem=%7b81EBE47A-6792-4E52-93AA-F102959AFF30%7d&amp;Id=ButtonFullRePublish"
+          ph="BorderNavigationButton.Content"
+          uid="{278D8242-B5DB-4B04-A764-C44ED1B7E791}" />
+        <r
+          id="{32865DBA-6067-4282-8681-0A10CAB13329}"
+          par="Id=Navigation"
+          ph="ApplicationContent.Navigation"
+          uid="{48C01C8A-22A8-4213-85BA-5600EC571392}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=Main&amp;UsePadding=1"
+          ph="ApplicationContent.Main"
+          uid="{8EC02FDB-51E9-4983-9AD3-FAD2210E5BAC}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderActiveJobs&amp;PaddingType=Bottom&amp;UsePadding=1"
+          ph="Main.Content"
+          uid="{6F64C948-78A7-4B59-93DE-BC0F69660824}" />
+        <r
+          id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}"
+          par="Id=ExpanderActiveJobs&amp;IsOpen=1"
+          ph="BorderActiveJobs.Content"
+          uid="{121C1361-E4D7-42CE-8799-672281B25478}" />
+        <r
+          id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}"
+          par="Id=ProgressIndicatorPanelActiveJobs&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+GenericDataSource.IsBusy%7d"
+          ph="ExpanderActiveJobs.Body"
+          uid="{6BD982B2-F921-4FEA-BA1F-373C53DF3549}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlActiveJobs&amp;ViewMode=TileList&amp;TileTemplatePath=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingDashboardActiveJob.html&amp;IsStateDiscarded=1&amp;IsSelectionDisabled=1&amp;TileCssPath=%2fsitecore%2fshell%2fclient%2fApplications%2fPublishing%2fPublishingTiles.css"
+          ph="ProgressIndicatorPanelActiveJobs.Content"
+          uid="{9E04778E-8244-4796-8BE0-A192341079D2}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderQueuedJobs&amp;PaddingType=Bottom&amp;UsePadding=1"
+          ph="Main.Content"
+          uid="{1035672E-ED8C-4E1A-A914-C7F321674B74}" />
+        <r
+          id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}"
+          par="Id=ExpanderQueuedJobs&amp;IsOpen=1"
+          ph="BorderQueuedJobs.Content"
+          uid="{C6304FE7-5D50-412C-A228-9505123778E3}" />
+        <r
+          id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}"
+          par="Id=ProgressIndicatorPanelQueuedJobs&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+GenericDataSource.IsBusy%7d"
+          ph="ExpanderQueuedJobs.Body"
+          uid="{D3BE3EEE-5886-44C1-BCB6-FB8C5E5597C9}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlQueuedJobs&amp;AssociatedListPage=%7bB9203C72-40ED-4931-95E2-591A68FFC92C%7d&amp;IsSelectionDisabled=1&amp;MaxRows=8"
+          ph="ProgressIndicatorPanelQueuedJobs.Content"
+          uid="{4BC8FD7B-6135-42B0-AA26-FF733A2BBEBC}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=BorderRecentJobs&amp;PaddingType=Bottom&amp;UsePadding=1"
+          ph="Main.Content"
+          uid="{E979FE8D-4A72-4C1E-A308-417F2259E5EE}" />
+        <r
+          id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}"
+          par="Id=ExpanderRecentJobs&amp;IsOpen=1"
+          ph="BorderRecentJobs.Content"
+          uid="{E3B4BAA6-D97B-412F-9C4A-AD7D8B5A1330}" />
+        <r
+          id="{4FCB66FF-03DF-4F4E-BD4D-A017CDFC4B09}"
+          par="Id=ProgressIndicatorPanelRecentJobs&amp;IsFullWidth=1&amp;IsBusy=%7bBinding+GenericDataSource.IsBusy%7d"
+          ph="ExpanderRecentJobs.Body"
+          uid="{D6043D6A-30DC-4342-A737-2EFC79CD2D9A}" />
+        <r
+          id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}"
+          par="Id=ListControlRecentJobs&amp;AssociatedListPage=%7b9521A204-92C1-4276-83D5-EB597FF6F21B%7d&amp;IsSelectionDisabled=0&amp;MaxRows=8"
+          ph="ProgressIndicatorPanelRecentJobs.Content"
+          uid="{90105F82-1DC8-4AC9-AC7F-8B41BC439273}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Instrumentpanel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160610T160029Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "Publicering - Instrumentpanel"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Dashboard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160610T160043Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "Veröffentlichen - Dashboard"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160127T144802Z
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "Publishing - Dashboard"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ダッシュボード
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160610T160049Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "パブリッシュ - ダッシュボード"

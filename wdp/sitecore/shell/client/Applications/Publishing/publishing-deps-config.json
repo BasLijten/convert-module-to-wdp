@@ -1,0 +1,10 @@
+﻿{
+    "paths": {
+        "publishingUtils": "/sitecore/shell/client/Applications/Publishing/PublishingUtils",
+        "publishingConstants": "/sitecore/shell/client/Applications/Publishing/PublishingConstants",
+        "publishingShared": "/sitecore/shell/client/Applications/Publishing/PublishingShared",
+        "publishingPreferences": "/sitecore/shell/client/Applications/Publishing/PublishingPreferences"
+    },
+    "shim": {},
+    "map": {}
+}

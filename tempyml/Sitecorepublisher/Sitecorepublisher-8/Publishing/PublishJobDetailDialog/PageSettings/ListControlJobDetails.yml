@@ -1,0 +1,89 @@
+﻿---
+ID: "b70920fc-bea5-44a9-ae41-2f9e9159772c"
+Parent: "e8934080-ada6-4d5f-9a9c-7184df08e66b"
+Template: "cd8b9663-036a-4c69-bb29-156b8c1b185e"
+Path: /sitecore/client/Applications/Publishing/PublishJobDetailDialog/PageSettings/ListControlJobDetails
+DB: core
+SharedFields:
+- ID: "cc8eb951-9f1f-4dbe-976c-d90199bd1573"
+  Hint: ColumnDefinitionItems
+  Type: TreelistEx
+  Value: |
+    {BF12A101-9473-4D41-98F6-5808335D63A3}
+    {FC7B0293-9690-4B3D-BA59-9DFE99E54E69}
+    {ECA63943-1946-416C-BB01-F902C0B7065E}
+    {23507218-C054-4DFD-81B9-E73FAA1E6128}
+    {5A875AB4-12A5-4616-AD38-7E84B86FBEED}
+    {09B1EA9B-1DE2-4F68-8FCB-81F80D942A0F}
+    {B7BEFB03-7CF2-4BE7-9EE1-F5FBCA502111}
+    {E7E444A6-EA8C-46D6-A703-5213A8C21C9D}
+    {E878F7C0-692C-4715-9A88-4C7767D57E8C}
+    {2569C93D-4BE8-40DE-87EF-FBA9577AFC49}
+    {2EE691D9-3D7E-4709-80D9-E346EE0906D1}
+    {7883BBFA-41BC-43E5-A87D-122791004FCC}
+    {D917B567-0FD1-4422-914E-A350F3C5A488}
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ListControlJobDetails
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140456Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: Der er ingen detaljer tilgængelige.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ListeControlJobDetails
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140501Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: Es stehen keine Details zur Verfügung.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160128T073821Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: There are no details available.
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: リスト コントロール ジョブ詳細
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140504Z
+    - ID: "4ebe84f6-d0f5-4ed4-9f05-1360d55f5a17"
+      Hint: EmptyText
+      Value: 詳細がありません。
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

@@ -1,0 +1,83 @@
+﻿---
+ID: "e5d7a437-4192-4759-8900-9acf3fdfb971"
+Parent: "75ba2247-c899-429a-9156-26dcbb08e261"
+Template: "8b3ee75b-5175-4e7f-85c1-3e3288e058b5"
+Path: /sitecore/client/Applications/Publishing/Common/System/ConfigurationItems/DialogWindowJobDetails
+DB: core
+SharedFields:
+- ID: "194b3df0-29bc-4e6b-9e6b-4fb0f086b01f"
+  Hint: Size
+  Value: "{91E82229-70A1-479A-ADF5-B638B36867F0}"
+- ID: "6d0c0ab0-bc40-4bd0-8acb-16612a180f14"
+  Hint: IsVisible
+  Type: Checkbox
+  Value: 1
+- ID: "e2c91975-f61a-4a56-809f-c6216ec36271"
+  Hint: IsKeyboardEnabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DialogWindowJobDetails
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140457Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: Detaljer
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DialogWindowJobDetails
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140502Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: Details
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160311T083919Z
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: Details
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ダイアログ ウィンドウ ジョブ詳細
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T140505Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "ee816529-6aa8-4c6d-a317-47c85128ea74"
+      Hint: HeaderText
+      Value: 詳細
