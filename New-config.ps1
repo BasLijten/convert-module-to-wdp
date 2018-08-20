@@ -1,10 +1,11 @@
 <#Param (
     [parameter(Mandatory=$true)][string]$modulePath = "\sitecoremodule\publishing\"
 )#>
-$moduleLocation = "$($PSScriptRoot)\modules\"
+$moduleLocation = "$($PSScriptRoot)\packages\"
 $moduleName = "Sitecorepublisher"
 $modulePath = "sitecoremodule\publishing"
-$itemPath = "$($PSScriptRoot)\test-files\$($modulePath)\items\" 
+#$itemPath = "$($PSScriptRoot)\test-files\$($modulePath)\items\"
+$itemPath = "$($PSScriptRoot)\temp\items\" 
 $rootDatalocation = "$($PSScriptRoot)\temp"
 $items = Get-ChildItem -Path $itemPath -Recurse -Filter "xml"
 [string[]]$files = @()
