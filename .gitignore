@@ -1,3 +1,4 @@
 !packages/*
-!/temp/*
-!/wdp/*
+!temp/*
+!wdp/*
+!tempyml/*
