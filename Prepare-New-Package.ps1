@@ -1,11 +1,12 @@
-
+$moduleName = "Coveo"
 $packagefolder = "$($PSScriptRoot)\packages\" 
-$packagename = "Sitecore Publishing Module 3.1.1 rev. 180807.zip"
+$packagename = "Coveo for Sitecore 90 4.1.518.18.zip"
+#$packagename = "Sitecore Publishing Module 3.1.1 rev. 180807.zip"
 $destination = "$($PSScriptRoot)\temp\"
 $wdppath = "$($PSScriptRoot)\wdp\"
 $ymlroot = "$($PSScriptRoot)\tempyml\"
 $mergedPackagepath = "$($packagefolder)$($packagename)"
-$moduleName = "Sitecorepublisher"
+
 
 Remove-Item -Path $destination -Recurse -Force
 Remove-Item -Path $wdppath -Recurse -Force
@@ -23,7 +24,7 @@ Remove-Item -Path "$($destination)\package.zip"
 New-Item -Path $wdppath -ItemType Directory
 Move-Item -Path "$($destination)files\*" -Destination $wdppath
 
-New-Item -Path "$($wdppath)\App_Data\Unicorn\$($moduleName)" -ItemType Directory
-Copy-Item -Path "$($ymlroot)$($moduleName)\*" -Destination "$($wdppath)\App_Data\Unicorn\$($moduleName)"
+#New-Item -Path "$($wdppath)\App_Data\Unicorn\$($moduleName)" -ItemType Directory
+#Copy-Item -Path "$($ymlroot)$($moduleName)\*" -Destination "$($wdppath)\App_Data\Unicorn\$($moduleName)"
 
 

@@ -1,12 +1,12 @@
 <#Param (
     [parameter(Mandatory=$true)][string]$modulePath = "\sitecoremodule\publishing\"
 )#>
-$moduleLocation = "$($PSScriptRoot)\packages\"
-$moduleName = "Sitecorepublisher"
-$modulePath = "sitecoremodule\publishing"
-#$itemPath = "$($PSScriptRoot)\test-files\$($modulePath)\items\"
+
+#$moduleLocation = "$($PSScriptRoot)\packages\"
+$moduleName = "Coveo"
+
 $itemPath = "$($PSScriptRoot)\temp\items\" 
-$rootDatalocation = "$($PSScriptRoot)\temp"
+$rootDatalocation = "$($PSScriptRoot)\tempyml\$($moduleName)"
 $items = Get-ChildItem -Path $itemPath -Recurse -Filter "xml"
 [string[]]$files = @()
 $items | foreach { 
@@ -55,7 +55,7 @@ $config.configuration.sitecore.unicorn.configurations.configuration.targetDataSt
 $config.configuration.sitecore.unicorn.configurations.configuration.name="$moduleName"
 $config.configuration.sitecore.unicorn.configurations.configuration.predicate.name="$moduleName"
 
-$config.Save("SPS.config")
+$config.Save("$($moduleName).config")
 
 
 
